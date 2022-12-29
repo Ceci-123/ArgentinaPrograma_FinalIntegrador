@@ -18,7 +18,8 @@ article{
     width: 350px;
     height: 300px;
     margin: 20px;
-
+    display: flex;
+    justify-content: center;
 }
 
 h1{
@@ -31,9 +32,18 @@ h1{
 .cuadrados:hover {
     transform: scale(1.05) ;
     background-color: greenyellow;
+    display: flex;
+    justify-content: center;
   }
 
   div{
    justify-content: center;
     display: flex;
+    text-align: center;
+  }
+
+  .titulitos{
+    font-size: 35px;
+    margin: auto;
+    
   }
