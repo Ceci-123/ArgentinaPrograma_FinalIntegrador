@@ -1,0 +1,37 @@
+body{
+ 
+
+    background-color: aquamarine;
+   
+    font-family: cursive;
+}
+
+article{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cuadrados{
+    border-color: blue;
+    background-color: brown;
+    display: flex;
+    border: 10px solid blueviolet;
+    width: 350px;
+    height: 300px;
+    margin: 20px;
+}
+
+h1{
+   
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.cuadrados:hover {
+    transform: scale(1.05) ;
+    background-color: greenyellow;
+  }
+
+  h2{
+    text-align: center;
+  }
