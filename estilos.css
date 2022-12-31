@@ -1,9 +1,6 @@
 body{
- 
-
-    background-color: aquamarine;
-   
-    font-family: cursive;
+     background-color:#f8dcb4;
+     font-family: cursive;
 }
 
 article{
@@ -11,10 +8,9 @@ article{
     flex-wrap: wrap;
 }
 .cuadrados{
-    border-color: blue;
-    background-color: brown;
+    background-color: #9c7a9d;
     display: flex;
-    border: 10px solid blueviolet;
+    border: 10px solid #a75293;
     width: 350px;
     height: 300px;
     margin: 20px;
@@ -31,7 +27,8 @@ h1{
 
 .cuadrados:hover {
     transform: scale(1.05) ;
-    background-color: greenyellow;
+    background-color:  #a75293;
+    border-color:  #9c7a9d;
     display: flex;
     justify-content: center;
   }
