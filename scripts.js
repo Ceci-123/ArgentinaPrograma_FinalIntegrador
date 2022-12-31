@@ -11,7 +11,28 @@ const misEstudios = "termine jardin";
 const miExperiencia = "trabaje en un kiosco";
 
 window.addEventListener("click", (e) => {
-  console.log(e.path[0]);
+  emisor = e.path[0];
+
+  switch (emisor) {
+    case nombre:
+      alert(miNombre);
+      break;
+    case contacto:
+      alert(datosContacto);
+      break;
+    case manifiesto:
+      alert(miManifiesto);
+      break;
+    case estudios:
+      alert(misEstudios);
+      break;
+    case experiencia:
+      alert(miExperiencia);
+      break;
+    default:
+      alert("algo malio sal");
+      break;
+  }
 });
 
 /* nombre.addEventListener("click", () => {

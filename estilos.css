@@ -19,7 +19,6 @@ article{
 }
 
 h1{
-   
     font-size: 50px;
     text-align: center;
     text-decoration: underline;
@@ -42,5 +41,5 @@ h1{
   .titulitos{
     font-size: 35px;
     margin: auto;
-    
+   
   }
