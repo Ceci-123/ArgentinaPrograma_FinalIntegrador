@@ -4,33 +4,34 @@ const manifiesto = document.getElementById("manifiesto");
 const estudios = document.getElementById("estudios");
 const experiencia = document.getElementById("experiencia");
 
-const miNombre = "Morenita Lopez";
-const datosContacto = "celular 12345678";
-const miManifiesto = "me gusta el trabajo en equipo";
-const misEstudios = "termine jardin";
-const miExperiencia = "trabaje en un kiosco";
-
 window.addEventListener("click", (e) => {
   emisor = e.path[0];
-
   switch (emisor) {
     case nombre:
-      alert(miNombre);
+      const x = document.getElementsByClassName("contenidos")[0];
+      console.log(x);
+      x.removeAttribute("display");
+      x.setAttribute("display", "block");
+
       break;
     case contacto:
-      alert(datosContacto);
+      const y = document.getElementsByClassName("contenidos")[1];
+      console.log(y);
       break;
     case manifiesto:
-      alert(miManifiesto);
+      const g = document.getElementsByClassName("contenidos")[2];
+      console.log(g);
       break;
     case estudios:
-      alert(misEstudios);
+      const h = document.getElementsByClassName("contenidos")[3];
+      console.log(h);
       break;
     case experiencia:
-      alert(miExperiencia);
+      const m = document.getElementsByClassName("contenidos")[4];
+      console.log(m);
       break;
     default:
-      alert("algo malio sal");
+      alert("mi foto");
       break;
   }
 });

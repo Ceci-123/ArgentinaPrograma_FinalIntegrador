@@ -43,3 +43,7 @@ h1{
     margin: auto;
    
   }
+
+  .contenidos{
+    display: none;
+  }
