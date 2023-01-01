@@ -40,7 +40,7 @@ window.addEventListener("click", (e) => {
       punteroContenido.style.display = "block";
       break;
     default:
-      alert("otra opcion");
+      alert("Si, esta soy yo");
       break;
   }
 });
