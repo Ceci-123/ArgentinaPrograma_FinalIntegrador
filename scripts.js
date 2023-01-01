@@ -12,32 +12,32 @@ window.addEventListener("click", (e) => {
     case nombre:
       punteroContenido = document.getElementsByClassName("contenidos")[0];
       punteroTitulitos = document.getElementsByClassName("titulitos")[0];
-      console.log(punteroContenido);
-      console.log(punteroTitulitos);
+      punteroTitulitos.style.display = "none";
+      punteroContenido.style.display = "block";
       break;
     case contacto:
       punteroContenido = document.getElementsByClassName("contenidos")[1];
       punteroTitulitos = document.getElementsByClassName("titulitos")[1];
-      console.log(punteroContenido);
-      console.log(punteroTitulitos);
+      punteroTitulitos.style.display = "none";
+      punteroContenido.style.display = "block";
       break;
     case manifiesto:
       punteroContenido = document.getElementsByClassName("contenidos")[2];
       punteroTitulitos = document.getElementsByClassName("titulitos")[2];
-      console.log(punteroContenido);
-      console.log(punteroTitulitos);
+      punteroTitulitos.style.display = "none";
+      punteroContenido.style.display = "block";
       break;
     case estudios:
       punteroContenido = document.getElementsByClassName("contenidos")[3];
       punteroTitulitos = document.getElementsByClassName("titulitos")[3];
-      console.log(punteroContenido);
-      console.log(punteroTitulitos);
+      punteroTitulitos.style.display = "none";
+      punteroContenido.style.display = "block";
       break;
     case experiencia:
       punteroContenido = document.getElementsByClassName("contenidos")[4];
       punteroTitulitos = document.getElementsByClassName("titulitos")[4];
-      console.log(punteroContenido);
-      console.log(punteroTitulitos);
+      punteroTitulitos.style.display = "none";
+      punteroContenido.style.display = "block";
       break;
     default:
       alert("otra opcion");
