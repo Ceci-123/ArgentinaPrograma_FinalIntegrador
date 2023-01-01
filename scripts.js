@@ -39,7 +39,7 @@ window.addEventListener("click", (e) => {
       console.log(punteroContenido);
       break;
     default:
-      alert("mi foto");
+      alert("otra opcion");
       break;
   }
 });
