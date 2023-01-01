@@ -14,6 +14,14 @@ window.addEventListener("click", (e) => {
       punteroTitulitos = document.getElementsByClassName("titulitos")[0];
       punteroTitulitos.style.display = "none";
       punteroContenido.style.display = "block";
+      /*  if (punteroTitulitos.style.display === "block") {
+        punteroTitulitos.style.display = "none";
+        punteroContenido.style.display = "block";
+      }
+      if (punteroTitulitos.style.display === "none") {
+        punteroTitulitos.style.display = "block";
+        punteroContenido.style.display = "block";
+      } */
       break;
     case contacto:
       punteroContenido = document.getElementsByClassName("contenidos")[1];
@@ -38,9 +46,6 @@ window.addEventListener("click", (e) => {
       punteroTitulitos = document.getElementsByClassName("titulitos")[4];
       punteroTitulitos.style.display = "none";
       punteroContenido.style.display = "block";
-      break;
-    default:
-      alert("Si, esta soy yo");
       break;
   }
 });
