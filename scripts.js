@@ -12,40 +12,57 @@ window.addEventListener("click", (e) => {
     case nombre:
       punteroContenido = document.getElementsByClassName("contenidos")[0];
       punteroTitulitos = document.getElementsByClassName("titulitos")[0];
-      punteroTitulitos.style.display = "none";
-      punteroContenido.style.display = "block";
-      /*  if (punteroTitulitos.style.display === "block") {
+      if (punteroTitulitos.style.display === "block") {
         punteroTitulitos.style.display = "none";
         punteroContenido.style.display = "block";
-      }
-      if (punteroTitulitos.style.display === "none") {
+      } else {
         punteroTitulitos.style.display = "block";
-        punteroContenido.style.display = "block";
-      } */
+        punteroContenido.style.display = "none";
+      }
       break;
     case contacto:
       punteroContenido = document.getElementsByClassName("contenidos")[1];
       punteroTitulitos = document.getElementsByClassName("titulitos")[1];
-      punteroTitulitos.style.display = "none";
-      punteroContenido.style.display = "block";
+      if (punteroTitulitos.style.display === "block") {
+        punteroTitulitos.style.display = "none";
+        punteroContenido.style.display = "block";
+      } else {
+        punteroTitulitos.style.display = "block";
+        punteroContenido.style.display = "none";
+      }
       break;
     case manifiesto:
       punteroContenido = document.getElementsByClassName("contenidos")[2];
       punteroTitulitos = document.getElementsByClassName("titulitos")[2];
-      punteroTitulitos.style.display = "none";
-      punteroContenido.style.display = "block";
+      if (punteroTitulitos.style.display === "block") {
+        punteroTitulitos.style.display = "none";
+        punteroContenido.style.display = "block";
+      } else {
+        punteroTitulitos.style.display = "block";
+        punteroContenido.style.display = "none";
+      }
       break;
     case estudios:
       punteroContenido = document.getElementsByClassName("contenidos")[3];
       punteroTitulitos = document.getElementsByClassName("titulitos")[3];
-      punteroTitulitos.style.display = "none";
-      punteroContenido.style.display = "block";
+      if (punteroTitulitos.style.display === "block") {
+        punteroTitulitos.style.display = "none";
+        punteroContenido.style.display = "block";
+      } else {
+        punteroTitulitos.style.display = "block";
+        punteroContenido.style.display = "none";
+      }
       break;
     case experiencia:
       punteroContenido = document.getElementsByClassName("contenidos")[4];
       punteroTitulitos = document.getElementsByClassName("titulitos")[4];
-      punteroTitulitos.style.display = "none";
-      punteroContenido.style.display = "block";
+      if (punteroTitulitos.style.display === "block") {
+        punteroTitulitos.style.display = "none";
+        punteroContenido.style.display = "block";
+      } else {
+        punteroTitulitos.style.display = "block";
+        punteroContenido.style.display = "none";
+      }
       break;
   }
 });
