@@ -1,3 +1,6 @@
+//primera version - el codigo funciona y no repite codigo
+// pero no toma correctamente el click
+
 const nombre = document.getElementById("nombre");
 const contacto = document.getElementById("contacto");
 const manifiesto = document.getElementById("manifiesto");
