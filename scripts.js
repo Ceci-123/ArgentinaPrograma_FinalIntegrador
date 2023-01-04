@@ -6,6 +6,7 @@ const experiencia = document.getElementById("experiencia");
 
 window.addEventListener("click", (e) => {
   let emisor = e.path[0];
+  console.log(emisor);
   let punteroContenido;
   let punteroTitulitos;
   switch (emisor) {
