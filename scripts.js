@@ -8,7 +8,7 @@ const estudios = document.getElementById("estudios");
 const experiencia = document.getElementById("experiencia");
 
 window.addEventListener("click", (e) => {
-  let emisor = e.path[0];
+  let emisor = e.target;
   console.log(emisor);
   let punteroContenido;
   let punteroTitulitos;
